@@ -1,0 +1,35 @@
+-- Here Your Toggle For Kavo Ui
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Aras.Xyz", "DarkTheme")
+
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+-- MAIN
+local Main = Window:NewTab("Triden survival")
+local MainSection = Main:NewSection("Triden survival V3 Best")
+
+MainSection:NewButton("Eniyiisi Büyük kafa + esp", "Eniyiisi Büyük kafa + esp", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SemaP1rat/standoff_chetiks_crack/main/prikol.lua'))()
+end)
+
+MainSection:NewButton("Herzaman Sabah Gölehe modu", "Herzaman Sabah Gölehe modu", function()
+    loadstring(game:HttpGet('Night vision", Callback = function() local Light = game:GetService("Lighting") function dofullbright() Light.Ambient = Color3.new(1, 1, 1) Light.ColorShift_Bottom = Color3.new(1, 1, 1) Light.ColorShift_Top = Color3.new(1, 1, 1)end dofullbright() Light.LightingChanged:Connect(dofullbright) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]'))()
+end)
+
+MainSection:NewButton("cros hair", "croshair", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SemaP1rat/standoff_chetiks_crack/main/crosshair.lua'))()
+end)
+
+MainSection:NewButton("sky", "sky", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SadeceAras160/arddsad/main/skyhub'))()
+end)
+
+
+MainSection:NewButton("Legit", "Legit", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SemaP1rat/standoff_chetiks_crack/main/prikol3.lua'))()
+end)
